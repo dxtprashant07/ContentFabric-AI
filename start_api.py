@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 # Set API key if not already set
 if not os.getenv('GOOGLE_API_KEY'):
-    os.environ['GOOGLE_API_KEY'] = 'AIzaSyBtW2cqCTDrUI278x_4KTHXSW_GPXuq1tA'
+    os.environ['GOOGLE_API_KEY'] = 'your api'
 
 # Import and run the API
 from src.api.main import app
